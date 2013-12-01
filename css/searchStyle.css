@@ -1,0 +1,79 @@
+/*QSS
+
+CHANGE COLOR CONTRAST 
+#4a6371; CHANGE COLOR CONTRAST2 
+#99CC00; CHANGE COLOR STANDARD 
+#007cc3; CHANGE COLOR BACKGROUND
+
+*/
+
+#searchResultsHeader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 2px;
+}
+
+.searchResultsBreadCrumb
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 2px;
+}
+
+.searchResultsCount
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.ItemResult #AdTitle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+.searchReturn_AdProperties
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+.searchInput
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
+.searchInput TD
+{
+	color:Black;
+	text-decoration:none;
+}
+	
+.searchInput .textBox
+{
+	border-style:solid;
+	font-size:small;
+}
+
+.searchInput .linkButton
+{
+	color:Black;
+	font-size:small;
+}
+
+.searchAdvanced #title
+{
+	font-size:24px;
+}
+
+.searchAdvanced .AdvSearchFieldLabel
+{
+	font-size:small;
+}
+
+.searchAdvanced .AdvSearchField
+{
+	font-size:small;
+}

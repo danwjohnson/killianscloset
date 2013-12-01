@@ -1,0 +1,677 @@
+/*QSS
+
+CHANGE COLOR CONTRAST 
+#4a6371; CHANGE COLOR CONTRAST2 
+#99CC00; CHANGE COLOR STANDARD 
+#007cc3; CHANGE COLOR BACKGROUND
+
+*/
+
+/*---Text---*/
+body {
+        font-size: 10pt;	
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	color: #5a6b74;
+	line-height: 16px;	
+	background-image: url('../images/fade_gray2.gif');	
+	background-repeat: repeat-x;
+}
+
+
+a:link 
+{
+	text-decoration: none;	
+	color: #004A8D;
+}
+
+a:hover 
+{	
+	text-decoration: underline;
+}
+
+a:visited 
+{	
+text-decoration: none;
+}
+
+#tagline 
+{	
+position:absolute;	
+width:269px;	
+height:28px;	
+z-index:10;	
+left: 509px;	
+top: 68px;
+}
+
+.Tagline_white 
+{
+	font-size: 12pt;	
+	color: #FFFFFF;
+}
+
+.Tagline_blue 
+{	
+	font-size: 12pt;	
+	color: #5fabcb;
+}
+
+div, p, ul, h2, h3, form, label
+{
+	margin:0px; 
+	padding:0px;
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+
+/*---Top Panel---*/
+#topPan
+{
+width:800px;	
+height:108px;	
+position:relative;	
+margin:0 auto;	
+background-image: url('../images/kc_header03.jpg');	
+background-repeat: no-repeat;
+}
+
+/*---Navigation---*/
+.TopLink_Home
+{
+	background-color: #0066CC;
+}
+
+.TopLink_MyCloset
+{
+	background-color: #5fabcb;
+}
+
+.TopLink_LogInOut
+{
+	background-color: #6699FF;
+}
+
+#topPan #Navigation ul li.navi{
+}
+
+#topPan #Navigation ul li a
+{	
+color:#FFFFFF;	
+text-decoration:none;	
+text-indent:0px;	
+padding-top: 10px;	
+padding-right: 10px;	
+padding-bottom: 5px;	
+padding-left: 10px;	
+font-weight:normal;	
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 9pt;
+text-align: left;	
+text-transform: uppercase;	
+/*	background-color: #C0C0C0; */
+}
+		
+#topPan #Navigation ul li
+{	
+float:left;	
+text-align: left;
+}
+
+#topPan #Navigation ul.navi li a:hover
+{	
+color:#FFFFFF;	
+text-decoration:none;	
+text-indent:0px;	
+padding-top: 10px;	
+padding-right: 10px;	
+padding-bottom: 5px;	
+padding-left: 10px;		
+font-family: Arial, Helvetica, sans-serif;	
+font-size: 9pt;	
+text-align: left;	
+text-transform: uppercase;	
+background-color: #3683a1;	
+}
+	
+#Navigation 
+{	
+position:absolute;	
+width:220px;	
+height:35px;	
+z-index:9;	
+left: 565px;	
+top: 10px;
+}	
+
+#wrapper1 {
+	background: #fff url('../images/fade_gray2.gif') repeat-x;
+	width: 800px;
+	margin: 50px auto 0;
+}
+
+
+#wrapper2 {
+	position: relative;
+	/*height: 170px;*/
+}
+
+/*
+#logo h1 a{
+	position: absolute;
+	background: url('/images/header.gif') no-repeat;
+	top: 5px;
+	left: 10px;
+	height: 108px;
+	width: 800px;
+	text-indent: -9999px;
+	float: left;
+}/*
+
+
+#navigation {
+	position: absolute;
+	top: 136px;
+	left: 200px;
+}
+
+#navigation li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+
+
+}
+
+
+#left_column{
+	width: 170px;
+	float: left;
+}
+
+#middle_column{
+	width: 605px;
+	height: 500px;
+	padding: 5px;
+	background: #fff;
+	float: left;
+	border: 2px solid #036d3a;
+
+}
+
+#right_column{
+	width: 170px;
+	float: left;
+}
+
+/*----Form----*/
+form{
+float:left; /*to clear the floats of inner elements,usefull if you wanna add a border or background image*/
+width:620px;
+}
+
+label{
+
+text-align: left;
+float: left;
+
+}
+
+input{
+float:left;
+width:200px;
+margin-bottom:10px; /*or whatever you want the spacing to be*/
+}
+
+/*----Member Login----*/
+
+.loginheader
+{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.Login_Label
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	float: left;
+	width: 150px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+.Login_Label_td
+{
+
+	width: 35%;
+	vertical-align: top;
+}
+
+.Login_Data_td
+{
+	
+	width: 75%;
+	text-align: left;
+}
+	
+.Login_Image
+{
+	border-width:0px;
+	width: 45px;
+	height: 20px;
+	margin-left: -140px;
+	margin-top: 50px;
+}
+
+.Create_Account_Image
+{
+	
+	border-width:0px;
+	width: 105px;
+	height: 20px;
+	margin-left: -215px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+
+/*---Registration Form---*/
+.RegistrationForm
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	float: left;
+	width: 200px;
+}
+
+.RegistrationForm .title
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.RegistrationForm .label
+{
+}
+
+.RegistrationForm .data
+{
+}
+
+.RegistrationForm .already_have_account
+}
+
+.RegistrationForm .PasswordInstructions
+{
+}
+
+.LoginForm
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	float: left;
+	width: 200px;	
+	
+}
+
+
+#form_wrapper {
+	
+	width: 620px;
+	height: auto;
+	text-align: left;
+	
+}
+
+#leftForm {
+	
+	float:left;
+	width: 200px;
+	
+}
+
+#leftForm form {
+	
+	float: left;
+	width: 200px;
+	
+}
+
+#leftForm form label {
+	
+	text-align: left;
+	float: left;
+	
+}
+
+#rightForm {
+	
+	float: left;
+	width: 370px;
+	margin-left: 50px;
+	
+}
+
+#rightForm form {
+	
+	float: left;
+	width: 200px;
+	margin-left: 50px;
+	
+}
+
+#rightForm form label {
+	
+	text-align: left;
+	float: left;
+	
+}
+
+
+/*---Stay In Touch---*/
+.StayInContact_Header
+{
+	font-size: 15px;
+}
+
+.StayInContact_Label
+{
+	font-size: 15px;
+}
+
+.StayInContact_Email
+{
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+/*---Profile Page---*/	
+.ProfileHeader
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.ProfileLabel
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;	
+}
+
+.ProfileData
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-variant: normal;	
+}
+
+.ProfileData
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.ProfileActiveCount
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-variant: normal;
+}
+
+/*---Contact Seller Page---*/
+
+#ContactSeller_Table
+{
+/*	border: thin solid #000000;*/
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+}
+/*
+.ContactSeller_Label_TD
+{
+	width: 100%;
+	text-align: right;
+}*/
+
+.ContactSeller_Label
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	width: 100%;
+	text-align: right;
+}
+
+.ContactSeller_data
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	width: 70%;
+/*	padding-left:5px; 
+	padding-right:4px;	*/
+}
+
+.ContactSeller_textbox
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	font-variant: normal;
+	width: 90%;
+}
+
+#Preview_Title
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #0000FF;
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.ContacSeller_Panel
+{
+	text-align: center;
+	font-size: small;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.ContacSeller_Panel table
+{
+/*	border: thin solid #000000;*/
+	text-align: center;
+	width: 95%;
+}
+
+/*---Ad display---*/
+.AdDisplay
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.AdTitle
+{
+	font-size: 20px;
+}
+
+.AdDisplay .text
+{
+	font-size: 15px;
+}
+
+.AdDisplay .description
+{
+	font-size: 15px;
+}
+
+.AdPrice
+{
+	font-size: 15px;
+}
+
+.ImageScroller
+{
+
+}
+
+#MainImageImage
+{
+	margin-left: 5px;
+}
+
+/*---Ad Editor---*/
+
+.AdEditor .label
+{
+	font-size: 15px;
+}
+
+.AdEditor .data
+{
+	font-size: 15px;
+}
+
+.AdEditor .AdInfo
+{
+	font-size: 17px;
+}
+
+.AdEditor .Upgrade
+{
+	font-size: 17px;
+}
+
+.AdEditor .Upgrade_Text
+{
+	font-size: 15px;
+}
+
+.AdEditor .Upgrade_Text
+{
+	font-size: 15px;
+}
+
+/*---Ad Purchase page---*/
+
+.Adpurchase .label
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.Adpurchase .data
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.Adpurchase .Message
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+/*---Ad Purchase Activation---*/
+.AdActivation_message
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.AdActivation_response
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+/*---Footer Panel---*/
+
+#footermainPan
+{
+width:800px;
+height:125px;
+position: relative;
+margin: 50px auto 0 auto;
+background-image: url('../images/fade_bottom1.gif');
+background-repeat: repeat-x;
+/*border: thin solid #00FF00;*/
+}
+
+/*---Disclaimer text---*/
+#footermainPan #footer ul li.footer{
+}
+
+#footermainPan #footer ul li a
+{
+color:#889eab;
+text-decoration:none;
+padding:0 10px 0 10px;	
+font-family: Georgia, "Times New Roman", Times, serif;	
+font-size: 9pt;
+border-color: #5fabcb;
+border: 1px;	
+border-right-style: solid;	
+}
+
+#footermainPan #footer ul li
+{	
+float:left;
+}
+
+#footermainPan #footer ul.footer li a:hover
+{	
+color:#3683a1;	
+text-decoration:none;	
+padding:0 10px 0 10px;	
+font-family: Georgia, "Times New Roman", Times, serif;	
+font-size: 9pt;	
+}
+
+
+#footer 
+{	
+position:absolute;	
+width:408px;	
+height:27px;	
+z-index:1;	
+top: 20px;	
+left: 225px;
+}
+
+/*
+#footer {
+	margin-top: 10px;
+	font-size: 10px;
+	border-top: 1px solid #036d3a;
+	padding: 10px;
+	width: 960px;
+}
+*/

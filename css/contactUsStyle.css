@@ -1,0 +1,20 @@
+/*QSS
+
+CHANGE COLOR CONTRAST 
+#4a6371; CHANGE COLOR CONTRAST2 
+#99CC00; CHANGE COLOR STANDARD 
+#007cc3; CHANGE COLOR BACKGROUND
+
+*/
+
+.contactQHeader
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;font-weight: bold;
+}
+	
+.contactQLabel
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;font-weight: bold;
+}
